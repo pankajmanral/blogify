@@ -15,6 +15,13 @@ NPM Requirements ->
     npm i express, mongoose, dotenv
         this will create a package-lock.json file in the folder 
         
-        
 ---------------------------------------------- 
+
 to run the nodemon server -> npx nodemon ./server.js
+
+----------------------------------------------
+models required to create the project (Data modelling)
+    POSTS
+    COMMENTS
+    USERS
+    CATEGORIES

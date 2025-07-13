@@ -1,0 +1,15 @@
+import mongoose and schema from mongoose 
+
+const userSchema = new mongoose.Schema({}) 
+
+create fields : 
+    fieldName : {
+        type : ____ ,
+        required : booleam,
+        default : _____ ,
+        enum : ['___', '____'] -> options to choose from to enter into the field 
+    },
+
+	fieldName : [{type: mongoose.Schema.Types.ObjectId, ref:'model_name'}],
+
+const User = mongoose.model('User', userSchema)

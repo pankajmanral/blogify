@@ -1,0 +1,20 @@
+BACKEND Folder structure 
+
+CONFIG -> This folder is going to contain all the configuration for the project 
+MODEL -> DATABASE 
+CONTROLLERS -> CONTAINS the bussiness logic 
+MIDDLEWARE -> Used to authenticate the user wheaher the user is already logged in, authorized etc 
+ROUTES -> 
+UTILS -> 
+.env -> 
+
+NPM Requirements -> 
+    npm init --yes 
+        this will create a package.json file in the folder
+
+    npm i express, mongoose, dotenv
+        this will create a package-lock.json file in the folder 
+        
+        
+---------------------------------------------- 
+to run the nodemon server -> npx nodemon ./server.js

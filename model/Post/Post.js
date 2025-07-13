@@ -19,7 +19,8 @@ const postSchema = new mongoose.Schema({
         required: true
     },
     author: {
-        type: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
         required: true
     },
     shares: {
@@ -31,7 +32,8 @@ const postSchema = new mongoose.Schema({
         default: 0
     },
     category: {
-        type: { type: mongoose.Schema.Types.ObjectId, ref: "Category" },
+        type: mongoose.Schema.Types.ObjectId, 
+        ref: "Category",
         required: true
     },
     schedulePost: {
